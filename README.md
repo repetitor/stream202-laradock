@@ -1,3 +1,41 @@
+##step1
+```
+# according to https://dev.to/dendihandian/laradock-a-php-developer-s-best-friend-33ef & repetitor (me)
+
+mkdir ~/projects
+cd ~/projects
+
+###### laravel8-project
+git clone https://github.com/repetitor/stream202-laravel8.git
+## or
+### git clone git@github.com:repetitor/stream202-laravel8.git
+## read README.MD - ##step1 (for stream202-laravel8.git)
+
+###### laradock-project
+git clone https://github.com/repetitor/stream202-laradock.git
+## or
+### git clone git@github.com:repetitor/stream202-laradock.git
+
+cd ~/projects/laradock
+
+cp env-example-repetitor202 .env
+
+# docker-compose build workspace php-fpm
+docker-compose up -d nginx mysql phpmyadmin
+
+docker-compose exec --user=laradock workspace bash
+# >>
+composer install
+php artisan key:generate
+exit
+
+# browser => localhost:180
+## or (ou, 2 next lines doesn't work on my comp, could you help me?)
+#sudo bash -c "echo \"127.0.0.1 stream202-laravel8.test\" >> /etc/hosts"
+# browser => stream202-laravel8.test:180
+
+```
+
 <p align="center">
     <img src="/.github/home-page-images/laradock-logo.jpg?raw=true" alt="Laradock Logo"/>
 </p>
