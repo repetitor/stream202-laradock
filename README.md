@@ -18,6 +18,8 @@ git clone https://github.com/repetitor/stream202-laradock.git
 
 cd ~/projects/laradock
 
+git checkout step1
+
 cp env-example-repetitor202 .env
 
 # docker-compose build workspace php-fpm
