@@ -1,4 +1,4 @@
-##step1
+##step1 (https://github.com/repetitor/stream202-laradock/tree/step1)
 ```
 # according to https://dev.to/dendihandian/laradock-a-php-developer-s-best-friend-33ef & repetitor (me)
 
