@@ -38,6 +38,15 @@ exit
 
 ```
 
+##step2 (https://github.com/repetitor/stream202-laradock/tree/step2_postgres)
+```
+git checkout step2_postgres
+cp env-example-repetitor202 .env
+
+# docker-compose build postgres
+docker-compose up -d postgres
+```
+
 <p align="center">
     <img src="/.github/home-page-images/laradock-logo.jpg?raw=true" alt="Laradock Logo"/>
 </p>
