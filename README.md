@@ -1,4 +1,8 @@
 ##step1 (https://github.com/repetitor/stream202-laradock/tree/step1)
+
+https://www.youtube.com/watch?v=HX2qiMxZVD0&t=0s - запустим ларавель чисто в докере (на ларадоке)
+
+https://www.youtube.com/watch?v=iN5k3JKgOks&t=0s - применяем xdebug in laravel
 ```
 # according to https://dev.to/dendihandian/laradock-a-php-developer-s-best-friend-33ef & repetitor (me)
 
@@ -39,6 +43,8 @@ exit
 ```
 
 ##step2 (https://github.com/repetitor/stream202-laradock/tree/step2_postgres)
+
+https://www.youtube.com/watch?v=06zV86cRsOI&t=0s - запускаем php artisan migrate in postgres
 ```
 git checkout step2_postgres
 cp env-example-repetitor202 .env
